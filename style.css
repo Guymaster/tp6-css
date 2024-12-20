@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+body {
+    background-color: #FCFCFC;
+}
+
+.header {
+    background-color: #118B50;
+    padding: 10px 20px;
+    font-size: large;
+    position: sticky;
+    top: 0;
+    color: #FCFCFC;
+}
+
+.notes {
+    padding: 20px;
+}
+
+.note {
+    margin: 10px auto;
+    background-color: #E3F0AF;
+    padding: 10px;
+    border-radius: 8px;
+    color: #1C1C1C;
+    max-width: 500px;
+}
+
+.ajouterNote {
+    background-color: #118B50;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 14px;
+    font-weight: bold;
+    color: #FCFCFC;
+}
+
+.ajouterNote:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+    cursor: pointer;
+}
